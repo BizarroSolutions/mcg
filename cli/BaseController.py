@@ -1,7 +1,7 @@
 from cement.core.controller import CementBaseController, expose
 from core.Manager import Manager
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
 BANNER = """
 Meteor Crud Generator v%s
@@ -13,7 +13,7 @@ class BaseController(CementBaseController):
     class Meta:
         label = 'base'
         description = 'MCG generates backend and unit tests for a Meteor Application'
-        epilog = "Suggestions or bugs must be reported to suporte@bizarro.solutions"
+        epilog = "Suggestions or bugs must be reported to info@bizarro.solutions"
 
         arguments = [
             (['-v', '--version'],

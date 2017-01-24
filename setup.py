@@ -12,7 +12,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='mcg',
 
-    version='0.0.1',
+    version='0.0.2',
 
     description='Meteor Project and API generator',
     long_description=long_description,
@@ -22,15 +22,15 @@ setup(
     author='Bizarro Solutions (João Marcos Bizarro)',
     author_email='info@bizarro.solutions',
 
-    license='GPLv3',
+    license='GNU General Public License v3 (GPLv3)',
 
     classifiers=[
         'Development Status :: 3 - Alpha',
 
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Productive Tools',
+        'Topic :: Software Development :: Build Tools',
 
-         'License :: GPLv3',
+         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.

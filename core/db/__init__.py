@@ -1,1 +1,1 @@
-__all__ = ['MongoDB']
+__all__ = ['MongoDB', 'Singleton']
