@@ -1,7 +1,7 @@
-.idea/vcs.xml
-.idea/workspace.xml
-dist
-mcg.egg-info
+.idea/
+dist/
+mcg.egg-info/
+build/
 cli/__pycache__/
 core/__pycache__/
 core/db/__pycache__/
