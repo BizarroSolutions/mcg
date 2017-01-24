@@ -7,5 +7,5 @@ class Mcg(CementApp):
         label = 'mcg'
         base_controller = BaseController
         config_files = [
-            './mcg.conf',
+            '/etc/mcg/mcg.conf',
         ]

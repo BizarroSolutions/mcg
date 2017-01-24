@@ -12,7 +12,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='mcg',
 
-    version='0.0.2',
+    version='0.0.3',
 
     description='Meteor Project and API generator',
     long_description=long_description,
