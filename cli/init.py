@@ -14,7 +14,8 @@ def main():
         app.setup()
 
         # Parse the configuration file
-        app.config.parse_file('/etc/mcg/mcg.conf')
+        # app.config.parse_file('/etc/mcg/mcg.conf')
+        # app.config.parse_file('C:/mcg/mcg.conf')
 
         try:
             MongoDB(
