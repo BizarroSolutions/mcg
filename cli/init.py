@@ -28,7 +28,9 @@ def main():
                 }
             )
         except NoSectionError:
-            print("Configuration File Not Found or [mongodb] Section Not Found (/etc/mcg/mcg.conf)")
+            print("Configuration File Not Found or [mongodb] Section Not Found")
+            print("Create the file /etc/mcg/mcg.conf for Linux Systems")
+            print("Create the file C:/mcg/mcg.conf for Windows Systems")
 
         app.run()
         app.close()

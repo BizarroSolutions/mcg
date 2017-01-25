@@ -12,7 +12,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 setup(
     name='mcg',
 
-    version='0.0.3',
+    version='0.0.7',
 
     description='Meteor Project and API generator',
     long_description=long_description,
@@ -34,7 +34,6 @@ setup(
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
@@ -47,9 +46,11 @@ setup(
 
     install_requires=['cement', 'pymongo', 'faker'],
 
+    # scripts=['bin/mcg'],
+
     entry_points={
         'console_scripts': [
-            'mcg=mcg:main',
+            'mcg=mcg.main:main',
         ],
     },
 )

@@ -1,7 +1,7 @@
 from cement.core.controller import CementBaseController, expose
 from core.Manager import Manager
 
-VERSION = '0.0.3'
+VERSION = '0.0.7'
 
 BANNER = """
 Meteor Crud Generator v%s
